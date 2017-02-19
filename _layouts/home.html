@@ -2,9 +2,9 @@
 layout: default
 ---
 
-<div class="home section">
+<div class="home section" id="gohome">
 
-  <h1>{{site.author}}</h1>
+  <h1 id="home">{{site.author}}</h1>
   <h2>{{site.author_title}}</h2>
   <p class="home_fa"><a href="{{site.twitter_url}}"><i class="fa fa-twitter fa-lg"></i></a> |
   <a href="{{site.linkedin_url}}"><i class="fa fa-linkedin fa-lg"></i></a> |
@@ -30,7 +30,6 @@ layout: default
 </div>
 
 <div class="section" id="blog">
-
   <h1 class="page-heading">Posts</h1>
 
   <ul class="post-list">
@@ -53,6 +52,7 @@ layout: default
 
 {% for page in site.pages %}
   {% if page.title %}
+
     <div class="section" id={{page.title}}>
       {{page.content}}
     </div>

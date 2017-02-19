@@ -1,5 +1,5 @@
 require "bundler/gem_tasks"
-require "realsimple"
+require "jekyll"
 require "listen"
 
 def listen_ignore_paths(base, options)
