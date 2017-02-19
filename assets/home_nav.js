@@ -3,7 +3,7 @@ $('#fullpage').fullpage({
     onLeave: function(index, nextIndex, direction){
       var leavingSection = $(this);
         //leaving 1st section
-        if(index == 1){
+        if(index != 1){
            $('.header').addClass('fixed');
         }
         //back to the 1st section
