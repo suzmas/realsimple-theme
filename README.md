@@ -1,6 +1,6 @@
 # realsimple-theme
 
-* Realsimple is a clean, simple, (mostly) one page theme for Jekyll. Post links navigate away from the main page, but everything else is managed by fullpage.js.
+* Realsimple is a clean, simple, (mostly) one page theme for Jekyll. Post links navigate away from the main page, but all other navigation uses fullpage.js.
 
 
 ## Installation
