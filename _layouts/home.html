@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class="home section" id="section0">
+<div class="home section">
 
   <h1 id="home">{{site.author}}</h1>
   <h2>{{site.author_title}}</h2>
@@ -20,9 +20,9 @@ layout: default
         </li>
       {% endif %}
     {% endfor %}
-    <li data-menuanchor="fourthPage">
+    <li data-menuanchor="4thpage">
       <h3>
-        <a class="splash-link" href="#fourthPage">Writing</a>
+        <a class="splash-link" href="#4thpage">Writing</a>
       </h3>
     </li>
   </ul>
@@ -32,13 +32,13 @@ layout: default
 {% for page in site.pages %}
   {% if page.title %}
 
-    <div class="section" id="section#{{page.pg_num}}">
+    <div class="section">
       {{page.content}}
     </div>
   {% endif %}
 {% endfor %}
 
-<div class="section" id="section3">
+<div class="section">
   <h1 class="page-heading">Posts</h1>
 
   <ul class="post-list">
