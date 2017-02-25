@@ -19,7 +19,11 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.2/jquery.fullPage.js"></script>
   <script type="text/javascript">
     $(document).ready(function() {
-      $('#fullpage').fullpage();
+      $('#fullpage').fullpage({
+        anchors: ['firstPage', 'secondPage', '3rdPage', '4thPage'],
+        menu: 'menu',
+        scrollingSpeed: 1000
+      });
     });
   </script>
 

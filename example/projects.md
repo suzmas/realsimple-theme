@@ -2,6 +2,8 @@
 layout: page
 title: Projects
 permalink: /projects/
+page_str: 3rdPage
+page_num: 2
 ---
 
 
