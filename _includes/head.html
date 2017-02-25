@@ -17,15 +17,7 @@
 
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.2/jquery.fullPage.js"></script>
-  <script type="text/javascript">
-    $(document).ready(function() {
-      $('#fullpage').fullpage({
-        anchors: ['firstPage', 'secondPage', '3rdpage', '4thpage'],
-        menu: 'menu',
-        scrollingSpeed: 1000
-      });
-    });
-  </script>
+  <script src="./assets/fullpg.js"></script>
 
   {% if jekyll.environment == 'production' and site.google_analytics %}
   {% include google-analytics.html %}

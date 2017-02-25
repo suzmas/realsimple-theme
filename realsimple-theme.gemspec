@@ -3,11 +3,11 @@
 Gem::Specification.new do |spec|
   spec.name          = "realsimple"
   spec.version       = "0.0.1"
-  spec.authors       = ["Suzan Sucro"]
+  spec.authors       = ["Suzan S."]
   spec.email         = ["suzansucro@gmail.com"]
 
   spec.summary       = %q{A simple one page theme for Jekyll. NOT DONE YET.}
-  spec.homepage      = "https://github.com/suzmas/realsimple_gem"
+  spec.homepage      = "https://github.com/suzmas/realsimple-theme"
   spec.license       = "MIT"
 
   spec.metadata["plugin_type"] = "theme"

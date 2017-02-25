@@ -1,8 +1,7 @@
 # realsimple-theme
 
-Welcome to your new Jekyll theme! In this directory, you'll find the files you need to be able to package up your theme into a gem. Put your layouts in `_layouts`, your includes in `_includes` and your sass in `_sass`. To experiment with this code, add some sample content and run `bundle exec jekyll serve` – this directory is setup just like a Jekyll site!
+* Realsimple is a clean, simple, (mostly) one page theme for Jekyll. Post links navigate away from the main page, but everything else is managed by fullpage.js.
 
-TODO: Delete this and the text above, and describe your gem
 
 ## Installation
 
@@ -45,4 +44,3 @@ When your theme is released, only the files in `_layouts`, `_includes`, and `_sa
 ## License
 
 The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
-
