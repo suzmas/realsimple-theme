@@ -2,6 +2,10 @@
 
 * Realsimple is a clean, simple, (mostly) one page theme for Jekyll. Post links navigate away from the main page, but all other navigation uses fullpage.js.
 
+If you find any bugs or have suggestions for improving this theme, please let me know via email (suzanmsucro@gmail.com) or with a Github issue: github.com/suzmas/realsimple-theme.
+
+<iframe src="//giphy.com/embed/uuGQhuT8kDzry" width="480" height="328" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/uuGQhuT8kDzry">via GIPHY</a></p>
+
 
 ## Installation
 
@@ -27,9 +31,15 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here. Describe your available layouts, includes, and/or sass.
+Available layouts: default, default-nofp, home, page, post. Default uses the fullpage.js wrapper, while default-nofp does not.
 
-Available layouts: default, default-nofp, home, page, post. Default uses the fullpage.js wrapper, while default-nofp does not. 
+The homepage layout cycles through your site's files that use the 'page' layout in the order they are organized in your directory- and creates a section on the homepage to display their content. The last section of the homepage displays links and snippets of your recent posts. Files defined with layout 'post' use the 'default-nofp' layout.
+
+Fullpage.js is initialized with four sections for the homepage (home, about, projects, posts). If you add additional files that use the 'page' layout, you'll need to modify fullpg.js in your assets file. You can read about Fullpage.js options here: https://github.com/alvarotrigo/fullPage.js/
+
+Your config.yaml file should include definitions for author, author_title, twitter_url, linkedin_url, and github_url in order for the homepage links to work correctly.
+
+
 
 ## Contributing
 

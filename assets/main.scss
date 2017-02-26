@@ -34,6 +34,11 @@ $on-laptop:        800px;
 //         padding-left: $spacing-unit / 2;
 //     }
 // }
-
+.project-img {
+  max-width: 250px;
+  min-width: 250px;
+  max-height: 250px;
+  min-height: 250px;
+}
 // Import partials from the `realsimple` theme.
 @import "realsimple";
