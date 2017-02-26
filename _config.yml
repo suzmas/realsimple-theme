@@ -13,7 +13,7 @@ github_url: https://github.com/YOURGITHUBNAME
 
 # Build settings
 markdown: kramdown
-theme: realsimple
+theme: realsimple-theme
 exclude:
   - Gemfile
   - Gemfile.lock

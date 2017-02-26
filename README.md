@@ -30,6 +30,7 @@ Or install it yourself as:
     $ gem install realsimple-theme
 
 ## Usage
+Your config.yaml file should include definitions for author, author_title, twitter_url, linkedin_url, and github_url in order for the homepage links to work correctly.
 
 Available layouts: default, default-nofp, home, page, post. Default uses the fullpage.js wrapper, while default-nofp does not.
 
@@ -39,13 +40,13 @@ Files defined with layout 'post' use the 'default-nofp' layout by default.
 
 ### Fullpage.js Settings
 
-You'll need to define "page_str:" in all files using the page layout- page strings should follow the format of Fullpage.js section links--> firstPage, secondPage, 3rdpage, 4thpage. See https://github.com/suzmas/realsimple-theme/tree/master/example for an example.
+You'll need to define 'page_str:' in the front-matter of all files using the page layout- page strings should follow the format of Fullpage.js section links--> firstPage, secondPage, 3rdpage, 4thpage. See https://github.com/suzmas/realsimple-theme/tree/master/example for an example.
 
-Fullpage.js is initialized with four sections for the homepage (home, about, projects, posts). If you add additional files that use the 'page' layout, you'll need to create an _assets folder with a file called fullpg.js and modify the settings. You can see an example of the fullpage.js setup options at: https://github.com/suzmas/realsimple-theme/tree/master/example. You can read about Fullpage.js options here: https://github.com/alvarotrigo/fullPage.js/
+Fullpage.js is initialized with four sections for a landing section, about section, portfolio section, and posts section. To set up this navigation style, add "page_str: secondPage" to the About.md front-matter. Create a file with title "Portfolio" and add "page_str: 3rdpage". The post snippets page is the last section by default.
 
-Your config.yaml file should include definitions for author, author_title, twitter_url, linkedin_url, and github_url in order for the homepage links to work correctly.
+If you add additional files that use the 'page' layout, you'll need to create an _assets folder with a file called fullpg.js and modify the 'anchors' settings. You can see an example of fullpage.js setup for this theme at: https://github.com/suzmas/realsimple-theme/tree/master/example. You can read about Fullpage.js options here: https://github.com/alvarotrigo/fullPage.js/
 
-
+#### FYI, I'm in the process of configuring the theme to make Fullpagejs easier to use.
 
 ## Contributing
 
