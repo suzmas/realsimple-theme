@@ -37,7 +37,7 @@ The homepage layout cycles through your site's files that use the 'page' layout 
 
 Files defined with layout 'post' use the 'default-nofp' layout by default.
 
-# Fullpage.js Settings
+### Fullpage.js Settings
 
 You'll need to define "page_str:" in all files using the page layout- page strings should follow the format of Fullpage.js section links--> firstPage, secondPage, 3rdpage, 4thpage. See https://github.com/suzmas/realsimple-theme/tree/master/example for an example.
 
