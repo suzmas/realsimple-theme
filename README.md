@@ -1,4 +1,5 @@
-# realsimple-theme
+# realsimple-theme [![Gem Version](https://badge.fury.io/rb/realsimple-theme.svg)](https://badge.fury.io/rb/realsimple-theme)
+
 
 * Realsimple is a clean, simple, (mostly) one page theme for Jekyll. Post links navigate away from the main page, but all other navigation uses fullpage.js.
 
