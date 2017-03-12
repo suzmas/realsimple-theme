@@ -5,7 +5,7 @@
 
 #### Note: this gem is *not* supported by GitHub Pages. If you would like to use this theme with GitHub Pages, you can clone the repository here: https://github.com/suzmas/suzmas.github.io and change the configuration as needed.
 
-If you find any bugs or have suggestions for improving this theme, please let me know via email (suzanmsucro@gmail.com) or with a Github issue: github.com/suzmas/realsimple-theme.
+If you find any bugs or have suggestions for improving this theme, please let me know via a Github issue.
 
 <iframe src="//giphy.com/embed/uuGQhuT8kDzry" width="480" height="328" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/uuGQhuT8kDzry">Realsimple gif preview</a></p>
 
