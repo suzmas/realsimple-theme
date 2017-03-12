@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "realsimple-theme"
-  spec.version       = "0.0.1"
+  spec.version       = "0.0.3"
   spec.authors       = ["Suzan S."]
   spec.email         = ["suzanmsucro@gmail.com"]
 
@@ -23,6 +23,8 @@ Gem::Specification.new do |spec|
 
 ----------------------------------------------
 Thank you for installing realsimple-theme! Visit https://github.com/suzmas/realsimple-theme to see an example of how to use this theme.
+
+NOTE: This gem is *not* supported by GitHub Pages. If you would like to use t his theme with GitHub pages, clone the repository at https://github.com/suzmas/suzmas.github.io.git and modify as needed.
 
 ----------------------------------------------
 
