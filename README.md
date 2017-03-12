@@ -2,6 +2,8 @@
 
 * Realsimple is a clean, simple, (mostly) one page theme for Jekyll. Post links navigate away from the main page, but all other navigation uses fullpage.js.
 
+#### Note: this gem is *not* supported by GitHub Pages. If you would like to use this theme with GitHub Pages, you can clone the repository here: https://github.com/suzmas/suzmas.github.io and change the configuration as needed.
+
 If you find any bugs or have suggestions for improving this theme, please let me know via email (suzanmsucro@gmail.com) or with a Github issue: github.com/suzmas/realsimple-theme.
 
 <iframe src="//giphy.com/embed/uuGQhuT8kDzry" width="480" height="328" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/uuGQhuT8kDzry">Realsimple gif preview</a></p>
