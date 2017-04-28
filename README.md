@@ -7,7 +7,7 @@
 
 If you find any bugs or have suggestions for improving this theme, please let me know via a Github issue.
 
-<iframe src="//giphy.com/embed/uuGQhuT8kDzry" width="480" height="328" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/uuGQhuT8kDzry">Realsimple gif preview</a></p>
+<p><a href="https://giphy.com/gifs/uuGQhuT8kDzry">Realsimple gif preview</a></p>
 
 
 ## Installation
